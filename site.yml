@@ -10,9 +10,6 @@
     - raw: apt-get install -y python-simplejson
   tasks:
     - import_tasks: actividades/actividad1.yml
-    - import_tasks: actividades/actividad2.yml
-
-
   handlers:
     - name: Reiniciar servidor SSH
       service:
